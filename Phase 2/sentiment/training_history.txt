@@ -1,0 +1,894 @@
+Training saved a checkpoint for iteration 14 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000013
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.75M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.09M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000013) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(RayTrainWorker pid=22847) Epoch 13 finished in 3.84s. Train Loss: 0.4622, Eval Loss: 0.6831, Eval Acc: 0.6400 [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 709 row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 1.42k row/s]
+                                                                                                                                                            
+Training finished iteration 15 at 2025-05-02 11:45:12. Total running time: 1min 11s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000014 │
+│ time_this_iter_s                3.83978 │
+│ time_total_s                   64.54207 │
+│ training_iteration                   15 │
+│ epoch                                14 │
+│ epoch_duration_s                3.81827 │
+│ evaluation_accuracy             0.61333 │
+│ evaluation_f1                   0.61165 │
+│ evaluation_loss                 0.92283 │
+│ train_loss                      0.38552 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 15 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000014
+(pid=22868) ✔️  Dataset execution finished in 0.08 seconds: : 721 row [00:00, 6.09k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 10.1k row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 496k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 792k row/s]
+                                                                                                                                                           
+Training finished iteration 16 at 2025-05-02 11:45:16. Total running time: 1min 15s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000015 │
+│ time_this_iter_s                4.02218 │
+│ time_total_s                   68.56425 │
+│ training_iteration                   16 │
+│ epoch                                15 │
+│ epoch_duration_s                3.69635 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.67114 │
+│ evaluation_loss                 0.76106 │
+│ train_loss                      0.39801 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 16 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000015
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 1.17k row [00:00, 7.27M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.86M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000015) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 525k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 769k row/s]
+(RayTrainWorker pid=22847) Epoch 15 finished in 4.05s. Train Loss: 0.4124, Eval Loss: 0.9115, Eval Acc: 0.6400 [repeated 4x across cluster]                
+
+Training finished iteration 17 at 2025-05-02 11:45:20. Total running time: 1min 19s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000016 │
+│ time_this_iter_s                3.63857 │
+│ time_total_s                   72.20282 │
+│ training_iteration                   17 │
+│ epoch                                16 │
+│ epoch_duration_s                3.89763 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.64529 │
+│ evaluation_loss                 0.73128 │
+│ train_loss                      0.40177 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 17 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000016
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 4.05M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.15M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 376k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 504k row/s]
+                                                                                                                                                           
+Training finished iteration 18 at 2025-05-02 11:45:24. Total running time: 1min 22s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000017 │
+│ time_this_iter_s                3.72874 │
+│ time_total_s                   75.93156 │
+│ training_iteration                   18 │
+│ epoch                                17 │
+│ epoch_duration_s                3.72077 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.67114 │
+│ evaluation_loss                 0.89142 │
+│ train_loss                      0.36129 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 18 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000017
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 987 row [00:00, 6.29M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.26M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000017) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 525k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 782k row/s]
+(RayTrainWorker pid=22846) Epoch 17 finished in 3.72s. Train Loss: 0.3613, Eval Loss: 0.8914, Eval Acc: 0.6667 [repeated 4x across cluster]                
+
+Training finished iteration 19 at 2025-05-02 11:45:28. Total running time: 1min 26s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000018 │
+│ time_this_iter_s                3.81348 │
+│ time_total_s                   79.74504 │
+│ training_iteration                   19 │
+│ epoch                                18 │
+│ epoch_duration_s                3.59904 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                    0.6581 │
+│ evaluation_loss                 0.86319 │
+│ train_loss                      0.33931 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 19 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000018
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 987 row [00:00, 5.14M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 4.29M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 429k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 701k row/s]
+                                                                                                                                                           
+Training finished iteration 20 at 2025-05-02 11:45:31. Total running time: 1min 30s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000019 │
+│ time_this_iter_s                3.77732 │
+│ time_total_s                   83.52236 │
+│ training_iteration                   20 │
+│ epoch                                19 │
+│ epoch_duration_s                3.93461 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.64474 │
+│ evaluation_loss                 0.97785 │
+│ train_loss                      0.32903 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 20 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000019
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 987 row [00:00, 6.45M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.03M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000019) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(RayTrainWorker pid=22846) Epoch 19 finished in 3.93s. Train Loss: 0.3290, Eval Loss: 0.9778, Eval Acc: 0.6400 [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 703 row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 1.41k row/s]
+                                                                                                                                                            
+Training finished iteration 21 at 2025-05-02 11:45:35. Total running time: 1min 34s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000020 │
+│ time_this_iter_s                3.92311 │
+│ time_total_s                   87.44547 │
+│ training_iteration                   21 │
+│ epoch                                20 │
+│ epoch_duration_s                  3.913 │
+│ evaluation_accuracy             0.69333 │
+│ evaluation_f1                   0.69296 │
+│ evaluation_loss                 1.01254 │
+│ train_loss                      0.32248 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 21 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000020
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 600 row [00:00, 4.11M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.22M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 507k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 801k row/s]
+                                                                                                                                                           
+Training finished iteration 22 at 2025-05-02 11:45:39. Total running time: 1min 38s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000021 │
+│ time_this_iter_s                3.75104 │
+│ time_total_s                   91.19651 │
+│ training_iteration                   22 │
+│ epoch                                21 │
+│ epoch_duration_s                3.73035 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                    0.6556 │
+│ evaluation_loss                 1.04307 │
+│ train_loss                        0.289 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 22 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000021
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 661 row [00:00, 2.28M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.06M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000021) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 501k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 777k row/s]
+(RayTrainWorker pid=22846) Epoch 21 finished in 3.73s. Train Loss: 0.2890, Eval Loss: 1.0431, Eval Acc: 0.6533 [repeated 4x across cluster]                
+
+Training finished iteration 23 at 2025-05-02 11:45:43. Total running time: 1min 41s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000022 │
+│ time_this_iter_s                3.64698 │
+│ time_total_s                   94.84349 │
+│ training_iteration                   23 │
+│ epoch                                22 │
+│ epoch_duration_s                3.62176 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                    0.6666 │
+│ evaluation_loss                 1.12594 │
+│ train_loss                      0.26172 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 23 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000022
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 4.13M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.36M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 507k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 713k row/s]
+                                                                                                                                                           
+Training finished iteration 24 at 2025-05-02 11:45:47. Total running time: 1min 45s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000023 │
+│ time_this_iter_s                3.73618 │
+│ time_total_s                   98.57967 │
+│ training_iteration                   24 │
+│ epoch                                23 │
+│ epoch_duration_s                3.66046 │
+│ evaluation_accuracy             0.62667 │
+│ evaluation_f1                   0.63062 │
+│ evaluation_loss                 1.00064 │
+│ train_loss                      0.30833 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 24 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000023
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 2.59M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.28M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000023) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 457k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 691k row/s]
+(RayTrainWorker pid=22847) Epoch 23 finished in 3.76s. Train Loss: 0.2690, Eval Loss: 1.0258, Eval Acc: 0.6400 [repeated 4x across cluster]                
+
+Training finished iteration 25 at 2025-05-02 11:45:50. Total running time: 1min 49s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000024 │
+│ time_this_iter_s                3.78385 │
+│ time_total_s                  102.36352 │
+│ training_iteration                   25 │
+│ epoch                                24 │
+│ epoch_duration_s                3.69352 │
+│ evaluation_accuracy                0.68 │
+│ evaluation_f1                   0.68152 │
+│ evaluation_loss                 0.98866 │
+│ train_loss                      0.28838 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 25 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000024
+(pid=22868) ✔️  Dataset execution finished in 0.09 seconds: : 600 row [00:00, 4.19M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.15M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 494k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 718k row/s]
+                                                                                                                                                           
+Training finished iteration 26 at 2025-05-02 11:45:54. Total running time: 1min 53s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000025 │
+│ time_this_iter_s                3.89456 │
+│ time_total_s                  106.25808 │
+│ training_iteration                   26 │
+│ epoch                                25 │
+│ epoch_duration_s                3.98137 │
+│ evaluation_accuracy             0.69333 │
+│ evaluation_f1                   0.69269 │
+│ evaluation_loss                  1.1439 │
+│ train_loss                      0.25254 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 26 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000025
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.97M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.19M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000025) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 514k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 742k row/s]
+(RayTrainWorker pid=22846) Epoch 25 finished in 3.98s. Train Loss: 0.2525, Eval Loss: 1.1439, Eval Acc: 0.6933 [repeated 4x across cluster]                
+
+Training finished iteration 27 at 2025-05-02 11:45:58. Total running time: 1min 57s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000026 │
+│ time_this_iter_s                3.89725 │
+│ time_total_s                  110.15533 │
+│ training_iteration                   27 │
+│ epoch                                26 │
+│ epoch_duration_s                 3.6203 │
+│ evaluation_accuracy                 0.6 │
+│ evaluation_f1                   0.60658 │
+│ evaluation_loss                 1.06798 │
+│ train_loss                      0.24825 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 27 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000026
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 600 row [00:00, 2.69M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.46M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 596 row/s]                                                                       
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 1.19k row/s]
+                                                                                                                                                            
+Training finished iteration 28 at 2025-05-02 11:46:02. Total running time: 2min 1s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000027 │
+│ time_this_iter_s                3.92833 │
+│ time_total_s                  114.08366 │
+│ training_iteration                   28 │
+│ epoch                                27 │
+│ epoch_duration_s                4.01177 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.66937 │
+│ evaluation_loss                 1.05405 │
+│ train_loss                      0.23447 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 28 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000027
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.95M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.96M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000027) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 548k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 798k row/s]
+(RayTrainWorker pid=22847) Epoch 27 finished in 3.91s. Train Loss: 0.2703, Eval Loss: 1.2415, Eval Acc: 0.6000 [repeated 4x across cluster]                
+
+Training finished iteration 29 at 2025-05-02 11:46:06. Total running time: 2min 5s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000028 │
+│ time_this_iter_s                4.00291 │
+│ time_total_s                  118.08656 │
+│ training_iteration                   29 │
+│ epoch                                28 │
+│ epoch_duration_s                4.13188 │
+│ evaluation_accuracy             0.61333 │
+│ evaluation_f1                   0.61944 │
+│ evaluation_loss                 1.06332 │
+│ train_loss                      0.24905 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 29 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000028
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 4.00M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.03M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 520k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 778k row/s]
+                                                                                                                                                           
+Training finished iteration 30 at 2025-05-02 11:46:10. Total running time: 2min 9s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000029 │
+│ time_this_iter_s                3.90064 │
+│ time_total_s                   121.9872 │
+│ training_iteration                   30 │
+│ epoch                                29 │
+│ epoch_duration_s                 3.7315 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.64915 │
+│ evaluation_loss                 1.30031 │
+│ train_loss                      0.22533 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 30 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000029
+(pid=22868) ✔️  Dataset execution finished in 0.05 seconds: : 600 row [00:00, 5.74k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 11.5k row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000029) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 303k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 537k row/s]
+(RayTrainWorker pid=22847) Epoch 29 finished in 3.93s. Train Loss: 0.2508, Eval Loss: 1.1470, Eval Acc: 0.6267 [repeated 4x across cluster]                
+
+Training finished iteration 31 at 2025-05-02 11:46:14. Total running time: 2min 13s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000030 │
+│ time_this_iter_s                3.97269 │
+│ time_total_s                  125.95989 │
+│ training_iteration                   31 │
+│ epoch                                30 │
+│ epoch_duration_s                4.02183 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.63835 │
+│ evaluation_loss                 1.28987 │
+│ train_loss                      0.23125 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 31 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000030
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 1.05k row [00:00, 6.58M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.09M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 493k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 764k row/s]
+                                                                                                                                                           
+Training finished iteration 32 at 2025-05-02 11:46:18. Total running time: 2min 17s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000031 │
+│ time_this_iter_s                4.24069 │
+│ time_total_s                  130.20058 │
+│ training_iteration                   32 │
+│ epoch                                31 │
+│ epoch_duration_s                4.13444 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                    0.6429 │
+│ evaluation_loss                 1.42465 │
+│ train_loss                      0.19678 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 32 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000031
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000031) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 2x across cluster]
+(RayTrainWorker pid=22847) Epoch 31 finished in 4.22s. Train Loss: 0.2261, Eval Loss: 1.1277, Eval Acc: 0.6533 [repeated 4x across cluster]
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.82M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.38M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 518k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 568k row/s]
+                                                                                                                                                           
+Training finished iteration 33 at 2025-05-02 11:46:22. Total running time: 2min 21s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000032 │
+│ time_this_iter_s                3.85142 │
+│ time_total_s                  134.05201 │
+│ training_iteration                   33 │
+│ epoch                                32 │
+│ epoch_duration_s                3.99506 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                    0.6529 │
+│ evaluation_loss                 1.40355 │
+│ train_loss                      0.19274 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 33 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000032
+(pid=22868) ✔️  Dataset execution finished in 0.04 seconds: : 600 row [00:00, 5.44k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 10.9k row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000032) [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 475k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 718k row/s]
+(RayTrainWorker pid=22847) Epoch 32 finished in 3.80s. Train Loss: 0.2489, Eval Loss: 1.0349, Eval Acc: 0.6400 [repeated 2x across cluster]                
+
+Training finished iteration 34 at 2025-05-02 11:46:26. Total running time: 2min 25s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000033 │
+│ time_this_iter_s                4.02107 │
+│ time_total_s                  138.07308 │
+│ training_iteration                   34 │
+│ epoch                                33 │
+│ epoch_duration_s                3.91122 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.63633 │
+│ evaluation_loss                 1.47856 │
+│ train_loss                      0.21505 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 34 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000033
+(pid=22868) ✔️  Dataset execution finished in 0.05 seconds: : 1.11k row [00:00, 424k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 235k row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 528k row/s]                                                                     
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 793k row/s]
+                                                                                                                                                           
+Training finished iteration 35 at 2025-05-02 11:46:30. Total running time: 2min 29s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000034 │
+│ time_this_iter_s                4.00311 │
+│ time_total_s                  142.07619 │
+│ training_iteration                   35 │
+│ epoch                                34 │
+│ epoch_duration_s                4.06149 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.66957 │
+│ evaluation_loss                 1.45817 │
+│ train_loss                      0.18568 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 35 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000034
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 4.05M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.09M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000034) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 494k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 732k row/s]
+(RayTrainWorker pid=22846) Epoch 34 finished in 4.06s. Train Loss: 0.1857, Eval Loss: 1.4582, Eval Acc: 0.6667 [repeated 4x across cluster]                
+
+Training finished iteration 36 at 2025-05-02 11:46:34. Total running time: 2min 33s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000035 │
+│ time_this_iter_s                3.84224 │
+│ time_total_s                  145.91842 │
+│ training_iteration                   36 │
+│ epoch                                35 │
+│ epoch_duration_s                3.72614 │
+│ evaluation_accuracy                0.68 │
+│ evaluation_f1                   0.67272 │
+│ evaluation_loss                 1.41639 │
+│ train_loss                      0.18979 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 36 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000035
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 1.17k row [00:00, 5.92M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.52M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 490k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 705k row/s]
+                                                                                                                                                           
+Training finished iteration 37 at 2025-05-02 11:46:38. Total running time: 2min 36s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000036 │
+│ time_this_iter_s                3.84309 │
+│ time_total_s                  149.76152 │
+│ training_iteration                   37 │
+│ epoch                                36 │
+│ epoch_duration_s                3.91105 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.63959 │
+│ evaluation_loss                 1.50903 │
+│ train_loss                      0.20045 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 37 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000036
+(pid=22868) ✔️  Dataset execution finished in 0.04 seconds: : 976 row [00:00, 3.71M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.33M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000036) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 481k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 757k row/s]
+(RayTrainWorker pid=22846) Epoch 36 finished in 3.91s. Train Loss: 0.2005, Eval Loss: 1.5090, Eval Acc: 0.6400 [repeated 4x across cluster]                
+
+Training finished iteration 38 at 2025-05-02 11:46:44. Total running time: 2min 43s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000037 │
+│ time_this_iter_s                6.20984 │
+│ time_total_s                  155.97135 │
+│ training_iteration                   38 │
+│ epoch                                37 │
+│ epoch_duration_s                 3.9044 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.66804 │
+│ evaluation_loss                 1.36149 │
+│ train_loss                       0.2031 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 38 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000037
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 1.17k row [00:00, 8.12M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 6.24M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000037) [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 2x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 540k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 792k row/s]
+(RayTrainWorker pid=22847) Epoch 37 finished in 6.26s. Train Loss: 0.2117, Eval Loss: 1.1821, Eval Acc: 0.6667 [repeated 2x across cluster]                
+
+Training finished iteration 39 at 2025-05-02 11:46:48. Total running time: 2min 46s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000038 │
+│ time_this_iter_s                 3.8451 │
+│ time_total_s                  159.81645 │
+│ training_iteration                   39 │
+│ epoch                                38 │
+│ epoch_duration_s                6.03414 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.65988 │
+│ evaluation_loss                 1.36525 │
+│ train_loss                          0.2 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 39 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000038
+(pid=22868) ✔️  Dataset execution finished in 0.04 seconds: : 600 row [00:00, 1.89M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 3.28M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 503k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 774k row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000039) [repeated 3x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 2x across cluster]
+(RayTrainWorker pid=22847) Epoch 39 finished in 4.08s. Train Loss: 0.2099, Eval Loss: 1.0625, Eval Acc: 0.6400 [repeated 3x across cluster]
+
+Training finished iteration 40 at 2025-05-02 11:46:52. Total running time: 2min 51s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000039 │
+│ time_this_iter_s                4.28782 │
+│ time_total_s                  164.10427 │
+│ training_iteration                   40 │
+│ epoch                                39 │
+│ epoch_duration_s                4.31322 │
+│ evaluation_accuracy             0.66667 │
+│ evaluation_f1                   0.66462 │
+│ evaluation_loss                 1.59005 │
+│ train_loss                      0.17194 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 40 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000039
+2025-05-02 11:46:52,653 WARNING experiment_state.py:206 -- Experiment state snapshotting has been triggered multiple times in the last 5.0 seconds and may become a bottleneck. A snapshot is forced if `CheckpointConfig(num_to_keep)` is set, and a trial has checkpointed >= `num_to_keep` times since the last snapshot.
+You may want to consider increasing the `CheckpointConfig(num_to_keep)` or decreasing the frequency of saving checkpoints.
+You can suppress this warning by setting the environment variable TUNE_WARN_EXCESSIVE_EXPERIMENT_CHECKPOINT_SYNC_THRESHOLD_S to a smaller value than the current threshold (5.0). Set it to 0 to completely suppress this warning.
+(pid=22868) ✔️  Dataset execution finished in 0.05 seconds: : 600 row [00:00, 5.66k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 11.3k row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.00 seconds: : 75.0 row [00:00, 447k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 773k row/s]
+                                                                                                                                                           
+Training finished iteration 41 at 2025-05-02 11:46:56. Total running time: 2min 55s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000040 │
+│ time_this_iter_s                4.29298 │
+│ time_total_s                  168.39725 │
+│ training_iteration                   41 │
+│ epoch                                40 │
+│ epoch_duration_s                4.01375 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.65587 │
+│ evaluation_loss                 1.31118 │
+│ train_loss                      0.20744 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 41 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000040
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.81M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.89M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000040) [repeated 3x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 494k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 750k row/s]
+(RayTrainWorker pid=22847) Epoch 40 finished in 4.44s. Train Loss: 0.2131, Eval Loss: 0.9881, Eval Acc: 0.6933 [repeated 3x across cluster]                
+
+Training finished iteration 42 at 2025-05-02 11:47:01. Total running time: 2min 59s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000041 │
+│ time_this_iter_s                4.14633 │
+│ time_total_s                  172.54359 │
+│ training_iteration                   42 │
+│ epoch                                41 │
+│ epoch_duration_s                4.30534 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                    0.6583 │
+│ evaluation_loss                 1.38709 │
+│ train_loss                       0.1807 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 42 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000041
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 3.64M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.75M row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 480k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 715k row/s]
+                                                                                                                                                           
+Training finished iteration 43 at 2025-05-02 11:47:05. Total running time: 3min 3s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000042 │
+│ time_this_iter_s                3.98097 │
+│ time_total_s                  176.52456 │
+│ training_iteration                   43 │
+│ epoch                                42 │
+│ epoch_duration_s                3.94373 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.64637 │
+│ evaluation_loss                 1.53581 │
+│ train_loss                      0.17397 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 43 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000042
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 1.21M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 2.44M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000042) [repeated 4x across cluster]
+(SplitCoordinator pid=22868) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 3x across cluster]
+(SplitCoordinator pid=22868) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 3x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 503k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 386k row/s]
+(RayTrainWorker pid=22847) Epoch 42 finished in 3.95s. Train Loss: 0.1743, Eval Loss: 1.2814, Eval Acc: 0.6800 [repeated 4x across cluster]                
+
+Training finished iteration 44 at 2025-05-02 11:47:09. Total running time: 3min 7s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000043 │
+│ time_this_iter_s                4.13453 │
+│ time_total_s                  180.65909 │
+│ training_iteration                   44 │
+│ epoch                                43 │
+│ epoch_duration_s                4.09874 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.65259 │
+│ evaluation_loss                 1.45259 │
+│ train_loss                       0.1578 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 44 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000043
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 796 row [00:00, 5.07M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.94M row/s]
+(RayTrainWorker pid=22847) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000043) [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 3x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 3x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 514k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 775k row/s]
+                                                                                                                                                           
+Training finished iteration 45 at 2025-05-02 11:47:13. Total running time: 3min 11s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000044 │
+│ time_this_iter_s                3.99724 │
+│ time_total_s                  184.65633 │
+│ training_iteration                   45 │
+│ epoch                                44 │
+│ epoch_duration_s                 4.0471 │
+│ evaluation_accuracy             0.62667 │
+│ evaluation_f1                   0.62723 │
+│ evaluation_loss                 1.50698 │
+│ train_loss                      0.18599 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 45 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000044
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 5.66k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 11.3k row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 513k row/s]                                                                      
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 797k row/s]
+(RayTrainWorker pid=22846) Epoch 44 finished in 4.05s. Train Loss: 0.1860, Eval Loss: 1.5070, Eval Acc: 0.6267 [repeated 4x across cluster]                
+
+Training finished iteration 46 at 2025-05-02 11:47:17. Total running time: 3min 16s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000045 │
+│ time_this_iter_s                4.64787 │
+│ time_total_s                   189.3042 │
+│ training_iteration                   46 │
+│ epoch                                45 │
+│ epoch_duration_s                4.61217 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.65259 │
+│ evaluation_loss                 1.66153 │
+│ train_loss                      0.14681 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 46 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000045
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000045) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 2x across cluster]
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 600 row [00:00, 342k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 660k row/s]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 371k row/s]                                                                     
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 379k row/s]
+(RayTrainWorker pid=22847) Epoch 46 finished in 4.64s. Train Loss: 0.1527, Eval Loss: 1.2794, Eval Acc: 0.6800 [repeated 3x across cluster]                
+
+Training finished iteration 47 at 2025-05-02 11:47:21. Total running time: 3min 20s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000046 │
+│ time_this_iter_s                4.03089 │
+│ time_total_s                  193.33509 │
+│ training_iteration                   47 │
+│ epoch                                46 │
+│ epoch_duration_s                3.97732 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.65587 │
+│ evaluation_loss                 1.70863 │
+│ train_loss                      0.13845 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 47 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000046
+(pid=22868) ✔️  Dataset execution finished in 0.04 seconds: : 1.19k row [00:00, 11.1k row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 11.2k row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000046) [repeated 2x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 537k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 777k row/s]
+                                                                                                                                                           
+Training finished iteration 48 at 2025-05-02 11:47:25. Total running time: 3min 24s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000047 │
+│ time_this_iter_s                3.76418 │
+│ time_total_s                  197.09927 │
+│ training_iteration                   48 │
+│ epoch                                47 │
+│ epoch_duration_s                3.66193 │
+│ evaluation_accuracy                0.64 │
+│ evaluation_f1                   0.63386 │
+│ evaluation_loss                 1.75266 │
+│ train_loss                      0.15864 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 48 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000047
+(pid=22868) ✔️  Dataset execution finished in 0.03 seconds: : 1.19k row [00:00, 7.22M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.58M row/s]
+(RayTrainWorker pid=22847) Epoch 47 finished in 3.85s. Train Loss: 0.1620, Eval Loss: 1.3347, Eval Acc: 0.6667 [repeated 3x across cluster]                    
+(pid=22869) ✔️  Dataset execution finished in 0.01 seconds: : 75.0 row [00:00, 729 row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 1.46k row/s]
+                                                                                                                                                            
+Training finished iteration 49 at 2025-05-02 11:47:29. Total running time: 3min 28s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000048 │
+│ time_this_iter_s                3.81292 │
+│ time_total_s                  200.91219 │
+│ training_iteration                   49 │
+│ epoch                                48 │
+│ epoch_duration_s                3.87985 │
+│ evaluation_accuracy             0.65333 │
+│ evaluation_f1                   0.65348 │
+│ evaluation_loss                 1.12653 │
+│ train_loss                      0.19185 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 49 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000048
+(pid=22868) ✔️  Dataset execution finished in 0.02 seconds: : 1.05k row [00:00, 6.32M row/s] 
+(pid=22868) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 191.9KB object store; [locality disabled]: : 1.20k row [00:00, 5.60M row/s]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000048) [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Starting execution of Dataset. Full logs are in /tmp/ray/session_2025-05-02_00-31-10_156162_30029/logs/ray-data [repeated 4x across cluster]
+(SplitCoordinator pid=22869) Execution plan of Dataset: InputDataBuffer[Input] -> OutputSplitter[split(2, equal=True)] [repeated 4x across cluster]
+(pid=22869) ✔️  Dataset execution finished in 0.02 seconds: : 75.0 row [00:00, 79.9k row/s] 
+(pid=22869) - split(2, equal=True): Tasks: 0; Queued blocks: 0; Resources: 0.0 CPU, 24.0KB object store; [locality disabled]: : 150 row [00:00, 150k row/s]
+                                                                                                                                                           
+Training finished iteration 50 at 2025-05-02 11:47:33. Total running time: 3min 32s
+╭─────────────────────────────────────────╮
+│ Training result                         │
+├─────────────────────────────────────────┤
+│ checkpoint_dir_name   checkpoint_000049 │
+│ time_this_iter_s                3.94288 │
+│ time_total_s                  204.85507 │
+│ training_iteration                   50 │
+│ epoch                                49 │
+│ epoch_duration_s                3.90569 │
+│ evaluation_accuracy                0.68 │
+│ evaluation_f1                   0.67606 │
+│ evaluation_loss                 1.36947 │
+│ train_loss                      0.14962 │
+╰─────────────────────────────────────────╯
+Training saved a checkpoint for iteration 50 at: (local)/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000049
+
+Training completed after 50 iterations at 2025-05-02 11:47:34. Total running time: 3min 33s
+2025-05-02 11:47:34,513 INFO tune.py:1009 -- Wrote the latest version of all result files and experiment state to '/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training' in 0.0126s.
+
+Training finished.
+Training Result Metrics: {'epoch': 49, 'train_loss': 0.14961756467819215, 'evaluation_loss': 1.3694745302200317, 'evaluation_accuracy': 0.68, 'evaluation_f1': 0.6760638029181482, 'epoch_duration_s': 3.9056859016418457, 'timestamp': 1746204453, 'checkpoint_dir_name': 'checkpoint_000049', 'should_checkpoint': True, 'done': True, 'training_iteration': 50, 'trial_id': 'a69e7_00000', 'date': '2025-05-02_11-47-33', 'time_this_iter_s': 3.9428811073303223, 'time_total_s': 204.8550741672516, 'pid': 22774, 'hostname': 'CENGR-LVPT2XMWDF', 'node_ip': '127.0.0.1', 'config': {'train_loop_config': {'lr': 0.001, 'epochs': 50, 'batch_size': 64, 'vocab_size': 2638, 'embedding_dim': 128, 'hidden_dim': 256, 'n_layers': 2, 'dropout': 0.5, 'pad_idx': 0, 'num_classes': 3}}, 'time_since_restore': 204.8550741672516, 'iterations_since_restore': 50, 'experiment_tag': '0'}
+
+--- Evaluating on Test Set ---
+Loading best model from checkpoint: /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000049
+Loading state dict manually from: /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000049/model.pt
+Loaded state dict with weights_only=True
+Predicting on test set...
+Evaluation complete. Found 150 true labels and 150 predictions.
+Number of texts collected: 150
+
+Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Negative     0.7381    0.7470    0.7425        83
+     Neutral     0.5849    0.6596    0.6200        47
+    Positive     0.5385    0.3500    0.4242        20
+
+    accuracy                         0.6667       150
+   macro avg     0.6205    0.5855    0.5956       150
+weighted avg     0.6635    0.6667    0.6617       150
+
+Classification report saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/plots/classification_report_lstm.txt
+
+Evaluation Metrics:
+{
+  "accuracy": 0.6666666666666666,
+  "f1_weighted": 0.661690606665457,
+  "precision_weighted": 0.6634780104591426,
+  "recall_weighted": 0.6666666666666666,
+  "f1_macro": 0.5955857981007682,
+  "precision_macro": 0.620487478978045,
+  "recall_macro": 0.5855208066307784
+}
+Evaluation metrics saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/plots/evaluation_metrics_lstm.json
+Confusion matrix plot saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/plots/confusion_matrix.png
+Test predictions saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/test_predictions_lstm.csv
+
+Plotting training history from metrics_dataframe...
+Loss history plot saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/plots/loss_history.png
+Accuracy history plot saved to /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/plots/accuracy_history.png
+
+Model training output, checkpoints, and plots saved in: /Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output
+(RayTrainWorker pid=22847) Epoch 49 finished in 3.99s. Train Loss: 0.1928, Eval Loss: 1.2864, Eval Acc: 0.6267 [repeated 4x across cluster]
+(RayTrainWorker pid=22846) Checkpoint successfully created at: Checkpoint(filesystem=local, path=/Users/mhr6wb/Library/CloudStorage/OneDrive-UniversityofMissouri/COURSE-WORK/bigData/sentiment/sentiment_model_lstm_output/twitter_sentiment_lstm_training/TorchTrainer_a69e7_00000_0_2025-05-02_11-44-01/checkpoint_000049) [repeated 2x across cluster]
+Ray shutdown.
+(agent) mhr6wb@CENGR-LVPT2XMWDF bigData % 
