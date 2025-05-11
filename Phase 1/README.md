@@ -8,8 +8,7 @@
 * Running the WordCount example in Apache Hadoop and Apache Spark on the extracted hashtags/URLs
 
 #### Directory Tree
-
-.
+```
 ├── output_py/
 ├── wordCount/
 │   ├── reducer.py
@@ -17,8 +16,9 @@
 ├── README.md
 ├── hashtags_urls.txt
 └── logs.txt
+```
 
-Description
+### Description
 
 
 * `output_py/`: Contains outputs from Python scripts.
@@ -29,5 +29,5 @@ Description
 * `hashtags_urls.txt`: A file storing hashtags and URLs.
 * `logs.txt`: Log file capturing the system or process logs.
 
-
+--- 
 **Project Members: Vani Seth, Rayhan Mahady, and Divya Reddy**
