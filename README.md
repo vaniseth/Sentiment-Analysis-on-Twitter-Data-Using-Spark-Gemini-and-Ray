@@ -3,6 +3,7 @@
 ## Twitter Sentiment Analysis Project
 
 This project is divided into **two phases**, each focusing on different aspects of large-scale data processing and machine learning using distributed computing frameworks.
+
 ---
 ## Phase 1: Hashtag and URL Extraction + WordCount
 
