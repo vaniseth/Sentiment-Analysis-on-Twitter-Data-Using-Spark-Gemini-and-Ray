@@ -34,7 +34,7 @@ Automatically labels tweets with Positive, Negative, or Neutral sentiment using 
 Implements a Bi-LSTM with attention mechanism for sentiment classification.
 
 * Distributed Training (Ray):
-Trains the model across multiple CPUs/GPUs using Ray Train, supports checkpointing and metric reporting.
+Trains the model across multiple CPUs using Ray Train, supports checkpointing and metric reporting.
 
 * Evaluation & Visualization:
 Confusion matrix, classification report, and training loss/accuracy curves are generated and stored.
